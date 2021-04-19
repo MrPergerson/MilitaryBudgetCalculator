@@ -1,23 +1,22 @@
 {
   "files": {
-    "main.css": "/MilitaryBudgetCalculator/static/css/main.b5c00737.chunk.css",
-    "main.js": "/MilitaryBudgetCalculator/static/js/main.0c3c73b4.chunk.js",
-    "main.js.map": "/MilitaryBudgetCalculator/static/js/main.0c3c73b4.chunk.js.map",
-    "runtime-main.js": "/MilitaryBudgetCalculator/static/js/runtime-main.e4c16c48.js",
-    "runtime-main.js.map": "/MilitaryBudgetCalculator/static/js/runtime-main.e4c16c48.js.map",
-    "static/js/2.43dd5d20.chunk.js": "/MilitaryBudgetCalculator/static/js/2.43dd5d20.chunk.js",
-    "static/js/2.43dd5d20.chunk.js.map": "/MilitaryBudgetCalculator/static/js/2.43dd5d20.chunk.js.map",
-    "static/js/3.688fdaf2.chunk.js": "/MilitaryBudgetCalculator/static/js/3.688fdaf2.chunk.js",
-    "static/js/3.688fdaf2.chunk.js.map": "/MilitaryBudgetCalculator/static/js/3.688fdaf2.chunk.js.map",
+    "main.css": "/MilitaryBudgetCalculator/static/css/main.a0160f8f.chunk.css",
+    "main.js": "/MilitaryBudgetCalculator/static/js/main.f4f15e6d.chunk.js",
+    "main.js.map": "/MilitaryBudgetCalculator/static/js/main.f4f15e6d.chunk.js.map",
+    "runtime-main.js": "/MilitaryBudgetCalculator/static/js/runtime-main.a3e07c86.js",
+    "runtime-main.js.map": "/MilitaryBudgetCalculator/static/js/runtime-main.a3e07c86.js.map",
+    "static/js/2.fa17fa8d.chunk.js": "/MilitaryBudgetCalculator/static/js/2.fa17fa8d.chunk.js",
+    "static/js/2.fa17fa8d.chunk.js.map": "/MilitaryBudgetCalculator/static/js/2.fa17fa8d.chunk.js.map",
+    "static/js/3.47511185.chunk.js": "/MilitaryBudgetCalculator/static/js/3.47511185.chunk.js",
+    "static/js/3.47511185.chunk.js.map": "/MilitaryBudgetCalculator/static/js/3.47511185.chunk.js.map",
     "index.html": "/MilitaryBudgetCalculator/index.html",
-    "static/css/main.b5c00737.chunk.css.map": "/MilitaryBudgetCalculator/static/css/main.b5c00737.chunk.css.map",
-    "static/js/2.43dd5d20.chunk.js.LICENSE.txt": "/MilitaryBudgetCalculator/static/js/2.43dd5d20.chunk.js.LICENSE.txt",
-    "static/media/logo.6ce24c58.svg": "/MilitaryBudgetCalculator/static/media/logo.6ce24c58.svg"
+    "static/css/main.a0160f8f.chunk.css.map": "/MilitaryBudgetCalculator/static/css/main.a0160f8f.chunk.css.map",
+    "static/js/2.fa17fa8d.chunk.js.LICENSE.txt": "/MilitaryBudgetCalculator/static/js/2.fa17fa8d.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.e4c16c48.js",
-    "static/js/2.43dd5d20.chunk.js",
-    "static/css/main.b5c00737.chunk.css",
-    "static/js/main.0c3c73b4.chunk.js"
+    "static/js/runtime-main.a3e07c86.js",
+    "static/js/2.fa17fa8d.chunk.js",
+    "static/css/main.a0160f8f.chunk.css",
+    "static/js/main.f4f15e6d.chunk.js"
   ]
 }
