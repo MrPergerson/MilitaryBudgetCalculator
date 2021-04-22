@@ -10,7 +10,6 @@ export default function Product(props) {
             <div>
                 <button onClick={()=>onAdd(product)}>Add To Cart</button>
             </div>
-
         </div>
     )
 }

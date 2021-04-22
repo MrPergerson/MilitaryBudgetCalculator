@@ -1,6 +1,7 @@
 import React from 'react'
 
 export default function Basket({cartItems, onAdd, onRemove}) {
+    const itemsPrice = cartItems.reduce((a,c) => a + c.price * c.qty, 0);
     return <aside className="block col-1">
         <h2>Cart Item</h2>
         <div>
@@ -18,5 +19,14 @@ export default function Basket({cartItems, onAdd, onRemove}) {
                 </div>
             </div>
         ))}
+        {cartItems.length !== 0 && (
+            <>
+            <hr></hr>
+            <div className="row">
+                <div className="col-2">Items Price</div>
+                <div className="col-1 text-right">${itemsPrice.toFixed(2)}</div>
+            </div>
+            </>
+        )}
     </aside>
 }
