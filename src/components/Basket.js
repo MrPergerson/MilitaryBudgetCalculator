@@ -27,7 +27,7 @@ export default function Basket({cartItems, onAdd, onRemove}) {
                 <div className="col-1 text-right">${new Intl.NumberFormat().format(itemsPrice.toFixed(2))}</div>
             </div>
             <div className="row">
-                This price accounts for {(itemsPrice/888000000000).toFixed(2)}% of the $888 billion US military budget
+                This price accounts for {(itemsPrice/730000000000).toFixed(2)}% of the $888 billion US military budget
             </div>
             </>
         )}
