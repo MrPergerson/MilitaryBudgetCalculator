@@ -27,9 +27,15 @@ export default function Basket({cartItems, onAdd, onRemove}) {
                 <div className="col-1 text-right">${new Intl.NumberFormat().format(itemsPrice.toFixed(2))}</div>
             </div>
             <div className="row">
-                This price accounts for {(itemsPrice/730000000000).toFixed(2)}% of the $888 billion US military budget
+                This price accounts for {(itemsPrice/730_000_000_000).toFixed(2)}% of the $730 billion US military budget
             </div>
+
             </>
         )}
+            <div className="row">
+            </div>
+            <div className="row">
+            This calculator is an informative tool for anyone to understand cost and purpose of various U.S. military vehicles, ships, and personnel. This site contains the main land brigades and the air and sea units of the military. Prices and units are based on the Congress Budget Office’s Interactive Force Structure Tool, which allowed users to see how increase or decreasing the US military would affect the budget. In this tool, I made the price and destructive power of these forces more apparent. Furthermore, I compare the user’s calculation with the 2019 total military budget to rise questions about why we have such large budget. Of the 1.38 trillion-dollar federal budget for 2019, 53%, a total of 730 billion dollars, went to the military spending. 
+            </div>
     </aside>
 }
