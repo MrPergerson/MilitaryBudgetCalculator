@@ -15,7 +15,7 @@ export default function Basket({cartItems, onAdd, onRemove}) {
                     <button onClick={()=>onRemove(item)} className="remove">-</button>
                 </div>
                 <div className="col-2 text-right">
-                    {item.qty} x ${item.price.toFixed(2)}
+                    {item.qty} x ${new Intl.NumberFormat().format(item.price.toFixed(2))}
                 </div>
             </div>
         ))}
@@ -23,8 +23,11 @@ export default function Basket({cartItems, onAdd, onRemove}) {
             <>
             <hr></hr>
             <div className="row">
-                <div className="col-2">Items Price</div>
-                <div className="col-1 text-right">${itemsPrice.toFixed(2)}</div>
+                <div className="col-2">Total yearly operation and service cost:</div>
+                <div className="col-1 text-right">${new Intl.NumberFormat().format(itemsPrice.toFixed(2))}</div>
+            </div>
+            <div className="row">
+                This price accounts for {(itemsPrice/888000000000).toFixed(2)}% of the $888 billion US military budget
             </div>
             </>
         )}

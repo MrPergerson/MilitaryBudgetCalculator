@@ -5,11 +5,8 @@ export default function Header(props) {
         <header className="row block center">
             <div>
                 <a href="#/">
-                    <h1>US Military Budget</h1>
+                    <h1>US Military Unit Calculator</h1>
                 </a>
-            </div>
-            <div>
-                <a href="#/cart">Cart</a> <a href="#/signin">Sign In</a>
             </div>
         </header>
         );

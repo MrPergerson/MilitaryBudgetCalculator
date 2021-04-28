@@ -1,10 +1,11 @@
 import React from 'react'
 import Product from './Product';
 
+
 export default function Main(props) {
     const {products, onAdd} = props;
     return <main className="block col-2">
-        <h2>Military Products</h2>
+        <h2>Military Units</h2>
         
             {products.map((product) => (
                 <div className="product-row">
@@ -17,8 +18,8 @@ export default function Main(props) {
                     </div>
                     <div>
                         <h3>{product.name}</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus perspiciatis adipisci nobis fugit rem qui atque distinctio corporis modi dolore, autem repellendus quam labore laboriosam, aliquid minus optio voluptate molestias!</p>
-                        <div>${product.price}</div>
+                        <p>{product.description}</p>
+                        <div>Yearly operation and service price: ${new Intl.NumberFormat().format(product.price)}</div>
                     </div>
                 </div>
             ))}
